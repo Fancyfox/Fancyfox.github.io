@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fancyfox.github.io/about/index.html</loc>
+    
+    <lastmod>2017-05-25T13:57:43.340Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://fancyfox.github.io/2017/05/25/new-article/</loc>
     
     <lastmod>2017-05-25T12:54:37.038Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://fancyfox.github.io/tags/index.html</loc>
     
     <lastmod>2017-05-25T04:50:05.123Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://fancyfox.github.io/about/index.html</loc>
-    
-    <lastmod>2017-05-25T04:19:05.769Z</lastmod>
     
   </url>
   
