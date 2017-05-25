@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://fancyfox.github.io/"/>
   <updated>2017-05-25T06:02:44.853Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://fancyfox.github.io/</id>
   
   <author>
     <name>Fancyfox</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>第二篇</title>
-    <link href="http://yoursite.com/2017/05/25/new-article/"/>
-    <id>http://yoursite.com/2017/05/25/new-article/</id>
+    <link href="https://fancyfox.github.io/2017/05/25/new-article/"/>
+    <id>https://fancyfox.github.io/2017/05/25/new-article/</id>
     <published>2017-05-25T05:25:56.000Z</published>
     <updated>2017-05-25T06:02:44.853Z</updated>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>第一篇博文</title>
-    <link href="http://yoursite.com/2017/05/24/hello-world/"/>
-    <id>http://yoursite.com/2017/05/24/hello-world/</id>
+    <link href="https://fancyfox.github.io/2017/05/24/hello-world/"/>
+    <id>https://fancyfox.github.io/2017/05/24/hello-world/</id>
     <published>2017-05-24T06:16:42.892Z</published>
     <updated>2017-05-25T00:16:55.993Z</updated>
     
