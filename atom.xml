@@ -36,19 +36,21 @@
   </entry>
   
   <entry>
-    <title>第一篇博文</title>
+    <title>第一篇</title>
     <link href="https://fancyfox.github.io/2017/05/24/hello-world/"/>
     <id>https://fancyfox.github.io/2017/05/24/hello-world/</id>
     <published>2017-05-24T06:16:42.892Z</published>
-    <updated>2017-05-25T00:16:55.993Z</updated>
+    <updated>2017-05-25T10:00:11.782Z</updated>
     
-    <content type="html"><![CDATA[<p>做了好久，还没整完。</p>
+    <content type="html"><![CDATA[<p><img src="http://p3.so.qhimgs1.com/t01904095f2e54ad893.jpg" alt="blog"></p>
+<h2 id="建个人博客的原因"><a href="#建个人博客的原因" class="headerlink" title="建个人博客的原因"></a>建个人博客的原因</h2><p>在学习shader的那段时间，我偶然翻到了一个大牛的博客。看了她很多关于shader的干货，但是太深奥，只是对她建的个人博客非常感兴趣，所以自己也打算建一个，至于原因么，有逼格，自由度高。当然，我想最主要的还是逼格。<br>很多技术大牛都是从CSDN转过来的，他们或多或少对web开发有一定了解，像我这样的小白没用过CSDN,一上来就建个人博客的很少，所以就只能跟着网上的资料一步一步来，中间还遇到了不少坑，耽误了很多时间。<a id="more"></a>大概是两个月之前吧，有建这个博客的打算，但是因为某个错误未能解决，所以耽搁了，这几天了解到可以用HEXO基于GitHub来建博客，所以又走上了这条装逼的道路。算了一下时间，差不多花了三天左右吧，好几次因为一个小问题解决不了卡半天头都快炸了，还好最后大部分都解决了。<br>如果同样有兴趣，不嫌坑多的同学也可以建一个，下一篇我会介绍几个博主的连接并且将一些我遇到的坑写下来。</p>
+<h2 id="这个博客的作用"><a href="#这个博客的作用" class="headerlink" title="这个博客的作用"></a>这个博客的作用</h2><p>这段时间我应该还会建一个CSDN的博客，主要写一些代码为主的东西，比如学习C#，C++的内容。至于这个博客吗，我应该会写一些我研究的小项目，并且不时的写一些感想或更贴近生活的东西，相当于自己的小简历。我想，因为这是一个个人博客，自己也不是技术大牛，所以几乎没什么人来，相当于属于自己的一片小净土。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;做了好久，还没整完。&lt;/p&gt;
-
+      &lt;p&gt;&lt;img src=&quot;http://p3.so.qhimgs1.com/t01904095f2e54ad893.jpg&quot; alt=&quot;blog&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;建个人博客的原因&quot;&gt;&lt;a href=&quot;#建个人博客的原因&quot; class=&quot;headerlink&quot; title=&quot;建个人博客的原因&quot;&gt;&lt;/a&gt;建个人博客的原因&lt;/h2&gt;&lt;p&gt;在学习shader的那段时间，我偶然翻到了一个大牛的博客。看了她很多关于shader的干货，但是太深奥，只是对她建的个人博客非常感兴趣，所以自己也打算建一个，至于原因么，有逼格，自由度高。当然，我想最主要的还是逼格。&lt;br&gt;很多技术大牛都是从CSDN转过来的，他们或多或少对web开发有一定了解，像我这样的小白没用过CSDN,一上来就建个人博客的很少，所以就只能跟着网上的资料一步一步来，中间还遇到了不少坑，耽误了很多时间。
     
     </summary>
     
