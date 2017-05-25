@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://fancyfox.github.io/"/>
-  <updated>2017-05-25T06:02:44.853Z</updated>
+  <updated>2017-05-25T12:54:37.038Z</updated>
   <id>https://fancyfox.github.io/</id>
   
   <author>
@@ -16,19 +16,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第二篇</title>
+    <title>关于怎么建个人博客</title>
     <link href="https://fancyfox.github.io/2017/05/25/new-article/"/>
     <id>https://fancyfox.github.io/2017/05/25/new-article/</id>
     <published>2017-05-25T05:25:56.000Z</published>
-    <updated>2017-05-25T06:02:44.853Z</updated>
+    <updated>2017-05-25T12:54:37.038Z</updated>
     
-    <content type="html"><![CDATA[<p>测试版面内容，不知道效果怎样</p>
+    <content type="html"><![CDATA[<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p>至于怎么搭建网上有很多教程，我就不写了，感兴趣的可以看<a href="http://www.jianshu.com/p/2b9f202c13fd" target="_blank" rel="external">这个博主写的教程</a>。根据他写的一步一步来就可以，我这里主要介绍一下我遇到的一些问题，希望可以帮助一些人避开这些坑，免得被耽误时间。</p>
+<h2 id="关于hexo主题"><a href="#关于hexo主题" class="headerlink" title="关于hexo主题"></a>关于hexo主题</h2><p>我用的是next这个主题，比较简约，网上也有很多其他主题，但是对于我这种web小白来说，太过复杂。想知道有关优化next主题的教程可以去这个<a href="http://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="external">next官方博客</a>查看。</p>
+<h2 id="我遇到的问题"><a href="#我遇到的问题" class="headerlink" title="我遇到的问题"></a>我遇到的问题</h2><h4 id="对hexo的初始化"><a href="#对hexo的初始化" class="headerlink" title="对hexo的初始化"></a>对hexo的初始化</h4><p>执行以下的命令<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init e:\blog</div></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p>之后要进入该目录执行<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install</div></pre></td></tr></table></figure></p>
+<p>我就是因为没有进入e盘blog，在外面右键Git Base Here，导致文件安装目录不一致，<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 一直显示not found 404，这地方卡了我半天。</p>
+<h4 id="在Github上添加SSH密钥"><a href="#在Github上添加SSH密钥" class="headerlink" title="在Github上添加SSH密钥"></a>在Github上添加SSH密钥</h4><p>这个问题的原因我不是很了解，当初配置的时候GitHub本身就已经有了一个秘钥，然后添加一个新的之后并不能将本地文件deploy到GitHub Pages上。于是我将原来的ssh删了，只保留了新建的，然后问题解决了，具体原因我不是很了解，在这个地方也卡了很久。</p>
+<h4 id="配置hexo目录下的-config-yml文件"><a href="#配置hexo目录下的-config-yml文件" class="headerlink" title="配置hexo目录下的_config.yml文件"></a>配置hexo目录下的_config.yml文件</h4><p>这个是最坑的，修改其中Deployment部分<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Deployment</span></div><div class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></div><div class="line"><span class="comment"># ssh://git@github.com/username/username.github.io</span></div><div class="line">deploy:</div><div class="line"> type: git</div><div class="line"> repo: ssh://git@github.com/username/username.github.io</div><div class="line"> branch: master</div></pre></td></tr></table></figure></p>
+<p> 注意这里的:后面是带空格的，而且<strong>type，repo，branch前面都是有空格的</strong>，这个真的非常坑，因为不是很了解web编译的原理，被卡了很久。</p>
+<h4 id="关于next主题发布中文内容"><a href="#关于next主题发布中文内容" class="headerlink" title="关于next主题发布中文内容"></a>关于next主题发布中文内容</h4><p>因为我电脑只有一个Visual Studio 2013,所以编译md文件输入中文会导致在博客的文字乱码，需要用记事本打开md文件，然后点另存为，将编码(E)设为UTF-8</p>
+<hr>
+<p>以上就是我遇到的一些问题，其实还有一些细小的问题，这里就不写了。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;测试版面内容，不知道效果怎样&lt;/p&gt;
-
+      &lt;h2 id=&quot;教程&quot;&gt;&lt;a href=&quot;#教程&quot; class=&quot;headerlink&quot; title=&quot;教程&quot;&gt;&lt;/a&gt;教程&lt;/h2&gt;&lt;p&gt;至于怎么搭建网上有很多教程，我就不写了，感兴趣的可以看&lt;a href=&quot;http://www.jianshu.com/p/2b9f202c13fd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这个博主写的教程&lt;/a&gt;。根据他写的一步一步来就可以，我这里主要介绍一下我遇到的一些问题，希望可以帮助一些人避开这些坑，免得被耽误时间。&lt;/p&gt;
+&lt;h2 id=&quot;关于hexo主题&quot;&gt;&lt;a href=&quot;#关于hexo主题&quot; class=&quot;headerlink&quot; title=&quot;关于hexo主题&quot;&gt;&lt;/a&gt;关于hexo主题&lt;/h2&gt;&lt;p&gt;我用的是next这个主题，比较简约，网上也有很多其他主题，但是对于我这种web小白来说，太过复杂。想知道有关优化next主题的教程可以去这个&lt;a href=&quot;http://theme-next.iissnan.com/theme-settings.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;next官方博客&lt;/a&gt;查看。&lt;/p&gt;
+&lt;h2 id=&quot;我遇到的问题&quot;&gt;&lt;a href=&quot;#我遇到的问题&quot; class=&quot;headerlink&quot; title=&quot;我遇到的问题&quot;&gt;&lt;/a&gt;我遇到的问题&lt;/h2&gt;&lt;h4 id=&quot;对hexo的初始化&quot;&gt;&lt;a href=&quot;#对hexo的初始化&quot; class=&quot;headerlink&quot; title=&quot;对hexo的初始化&quot;&gt;&lt;/a&gt;对hexo的初始化&lt;/h4&gt;&lt;p&gt;执行以下的命令&lt;br&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;hexo init e:\blog&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
     
     </summary>
     
