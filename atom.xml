@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://fancyfox.github.io/"/>
-  <updated>2017-05-27T03:58:58.086Z</updated>
+  <updated>2017-08-15T03:27:10.164Z</updated>
   <id>https://fancyfox.github.io/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ʹ��WPF</title>
+    <link href="https://fancyfox.github.io/2017/08/15/StudyWPF/"/>
+    <id>https://fancyfox.github.io/2017/08/15/StudyWPF/</id>
+    <published>2017-08-15T01:59:29.000Z</published>
+    <updated>2017-08-15T03:27:10.164Z</updated>
+    
+    <content type="html"><![CDATA[<p>###�⼸����<br>����һ��ʱ�䣬�����3����û�и���������������ôʹ�ò��͡�û�취�����˲�����Ȼ�Ƹ��ߣ����������������ر𷽱㣬��������������С�ף������²��þ����ò���ˡ��������£��������о���Unity��������һ�����Ȳ���20%��2D��Ϸ��Ȼ����һЩ���⿨�˺ܾá�Ȼ���������٣��ڱ���һ�ҹ�˾ʵϰ��ѧϰʹ��WPF����20�����ҡ����ˣ��ϻ�����˵����Ӧ����һƪ�������£������Ļ��ͷŵ�����������˵�ɡ�<br><a id="more"></a></p>
+<p>###����WPF<br>ʲô��WPF,�ٶ���һ�£�WPF(Windows Presentation Foundation)��΢���Ƴ��Ļ���Windows Vista���û��������ܣ�����.NET Framework 3.0��һ���֡����ṩ��ͳһ�ı���ģ�͡����ԺͿ��ܣ����������˷�������������Ա�뿪����Ա�Ĺ���;ͬʱ���ṩ��ȫ�µĶ�ý�彻���û�ͼ�ν��档ֱ��һ�����ǿ��������Ľ��棬Ҳ����������������UI����ʵWPF������ASP.NET��Windows Forms�ġ��ӽ�Ʒ�֡������ڽӴ�WPF֮ǰûʹ�ù�Windows Forms�����Գ�ѧ����ѹ���Ƚϴ󣬵�����������Unity UI��������Ŀ������Windows Forms��WPF����XAML��������һЩ�Ƚ������ݡ�</p>
+<p>####����XAML<br>��ʲô����XAML�أ��ٶ���һ�£�XAML��eXtensible Application Markup Language��Ӣ����д����Ӧ����������Ϊ����չӦ�ó����������ԣ�����΢����˾Ϊ����Ӧ�ó����û�������������һ���µ����������ԡ�XAML�ṩ��һ�ֱ�����չ�Ͷ�λ���﷨�������ͳ����߼��������û����棬������ʵ�ַ�ʽ��ASP.NET�е�”��������”ģ�ͷǳ����ơ�XAML��һ�ֽ����Ե����ԣ�������Ҳ���Ա����롣�����ŵ��Ǽ򻯱���ʽ�ϵ��û��������̣�Ӧ��ʱҪ���Ӵ����ȡ�XAML�ķ���Ϊ”Zamel”����ȻXAML�����������¹�����Ԫ�غ��﷨��ֻҪ������΢�߱�һЩHTML����֪ʶ���Ϳ��Կ��ٵ�����XAML�еĴ󲿷����ݡ��ܲ��ң���֮ǰҲû�Ӵ���HTML,����û�л���֪ʶ����ĥ��ʮ���죬���������˽⡣<br>������һ������XAML�ļ򵥵Ĳ��ԡ�<br><img src="/2017/08/15/StudyWPF/xaml1.jpg" alt="xaml"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;Window x:Class=&quot;XAMLtest.MainWindow&quot;</div><div class="line">        xmlns=&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;</div><div class="line">        xmlns:x=&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot;</div><div class="line">        Title=&quot;MainWindow&quot; Height=&quot;350&quot; Width=&quot;525&quot;&gt;</div><div class="line">    &lt;Grid Background=&quot;#FFBBBBBB&quot;&gt;</div><div class="line">        &lt;Button Content=&quot;Button&quot; Click=&quot;Display&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;46&quot; Margin=&quot;104,154,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;104&quot;/&gt;</div><div class="line">        &lt;TextBox x:Name=&quot;textbox&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;66&quot; Margin=&quot;104,65,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;165&quot;/&gt;</div><div class="line"></div><div class="line">    &lt;/Grid&gt;</div><div class="line">&lt;/Window&gt;</div></pre></td></tr></table></figure></p>
+<p>��Butto�ؼ���������Display�����¼�����TextBox�ؼ�����ʾ����Ȼ����Ҫ���¼���д����ʾ���ֵ�C#���롣Ч���������ġ�<br><img src="/2017/08/15/StudyWPF/xaml2.jpg" alt="xaml"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###�⼸����&lt;br&gt;����һ��ʱ�䣬�����3����û�и���������������ôʹ�ò��͡�û�취�����˲�����Ȼ�Ƹ��ߣ����������������ر𷽱㣬��������������С�ף������²��þ����ò���ˡ��������£��������о���Unity��������һ�����Ȳ���20%��2D��Ϸ��Ȼ����һЩ���⿨�˺ܾá�Ȼ���������٣��ڱ���һ�ҹ�˾ʵϰ��ѧϰʹ��WPF����20�����ҡ����ˣ��ϻ�����˵����Ӧ����һƪ�������£������Ļ��ͷŵ�����������˵�ɡ�&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="WPF" scheme="https://fancyfox.github.io/categories/WPF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>接触的第一款游戏</title>
